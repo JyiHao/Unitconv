@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="0">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript">
+            function c2f() {
+                var tempc=Number(prompt("输入温度值"))
+                alert(tempc*1.8+32);
+            }
+            function f2c() {
+                var tempf=Number(prompt("输入温度值"))
+                alert((tempf-32)/1.8);
+            }
+        </script>
+    </head>
+    <body>
+        <button id="button_c2f" onclick="c2f()">摄氏度转华氏度</button>
+        <button id="button_c3f" onclick="f2c()">华氏度转摄氏度</button>
+    </body>
+</html>
